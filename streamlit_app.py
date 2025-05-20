@@ -1,7 +1,7 @@
 import streamlit as st
 from tensorflow.keras.models import model_from_json
-import numpy as np
 from PIL import Image, UnidentifiedImageError
+import numpy as np
 import os
 
 # Función para descargar el archivo desde una URL (si es necesario)
