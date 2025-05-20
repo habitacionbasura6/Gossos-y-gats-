@@ -4,12 +4,6 @@ from PIL import Image, UnidentifiedImageError
 import numpy as np
 import os
 
-# Función para descargar el archivo desde una URL (si es necesario)
-def download_file(url, filename):
-    r = requests.get(url)
-    with open(filename, 'wb') as f:
-        f.write(r.content)
-
 # Verificar si los archivos existen y descargarlos si no es así
 if not os.path.exists("model_gats_gossos.json") or not os.path.exists("model_gats_gossos.weights.h5"):
     st.info("⚠️ Descargando los archivos del modelo desde GitHub...")
