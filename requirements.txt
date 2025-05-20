@@ -1,0 +1,5 @@
+tensorflow
+Pillow
+numpy
+request
+streamlit
