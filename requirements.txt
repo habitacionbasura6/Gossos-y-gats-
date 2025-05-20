@@ -1,5 +1,5 @@
 tensorflow
-Pillow
+pillow
 numpy
 request
 streamlit
