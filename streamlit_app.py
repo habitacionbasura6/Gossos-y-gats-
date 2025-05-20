@@ -15,8 +15,8 @@ def download_file(url, filename):
 if not os.path.exists("model_gats_gossos.json") or not os.path.exists("model_gats_gossos.weights.h5"):
     st.info("⚠️ Descargando los archivos del modelo desde GitHub...")
     # Reemplaza con las URLs correctas de tus archivos en GitHub
-    json_url = 'https://github.com/Ayuste01/tu_repositorio/raw/main/model_gats_gossos.json'  # Reemplaza esta URL
-    weights_url = 'https://github.com/Ayuste01/tu_repositorio/raw/main/model_gats_gossos.weights.h5'  # Reemplaza esta URL
+    json_url = 'https://github.com/habitacionbasura6/Gossos-y-gats-/blob/main/model_gats_gossos.json'  # Reemplaza esta URL
+    weights_url = 'https://github.com/habitacionbasura6/Gossos-y-gats-/blob/main/model_gats_gossos.weights.h5'  # Reemplaza esta URL
    
     # Descargar los archivos
     download_file(json_url, 'model_gats_gossos.json')
